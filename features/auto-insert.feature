@@ -7,7 +7,7 @@ Feature: Auto insert
     And I press "C-c C-a a"
     Then I should see:
     """
-    define(function(){
+    define([], function() {
     
     });
     """
